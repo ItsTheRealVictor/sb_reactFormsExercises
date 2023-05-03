@@ -1,10 +1,13 @@
-import { useState } from "react"
-import "./App.css"
-
+import React from "react"
+import BoxList from "./color_box_maker/BoxList"
 function App() {
-  const [count, setCount] = useState(0)
-
-  return <></>
+  return (
+    <>
+      <div className="App">
+        <BoxList />
+      </div>
+    </>
+  )
 }
 
 export default App
